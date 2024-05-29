@@ -22,7 +22,7 @@ public struct EmailListView: View {
                 Text(user.email)
             }
             Spacer()
-            Button("Return To App") {
+            Button("Return To App.") {
                 returnFirstEmail()
             }
             .frame(width: 150, height: 50)
